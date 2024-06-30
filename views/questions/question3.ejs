@@ -1,0 +1,38 @@
+<% layout('/layouts/boilerplate') %>
+<body class="q3b">
+    <div>
+        <form action="/questions/3" method="post">
+        <h1>HOUSING</h1>
+        <h1>Which housing size describes your home?</h1>
+        </div>
+        <br>
+        <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="housing" value="1" id="1" required>
+            <label class="form-check-label" for="1">
+                Large house
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="housing" value="2" id="2" required>
+            <label class="form-check-label" for="2">
+                Middle house
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="housing" value="3" id="3" required>
+            <label class="form-check-label" for="3">
+                Small house
+            </label>
+        </div>  
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="housing" value="4" id="4" required>
+            <label class="form-check-label" for="4">
+                Tiny house
+            </label>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary" id="next">Next</button>
+        </form>
+    </div>
+    </body>

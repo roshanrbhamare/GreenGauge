@@ -1,0 +1,32 @@
+<% layout('/layouts/boilerplate') %>
+<body class="q5b">
+    <div>
+        <form action="/questions/5" method="post">
+        <h1>TRANSPORTATION</h1>
+        <h1>Which is the best option for your transportation?</h1>
+        </div>
+        <br>
+        <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transport" value="1" id="1" required>
+            <label class="form-check-label" for="1">
+                Car 
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transport" value="2" id="2" required>
+            <label class="form-check-label" for="2">
+                Public transport
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="transport" value="3" id="3" required>
+            <label class="form-check-label" for="3">
+                Bicycle or Walking
+            </label>
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary" id="next">Next</button>
+        </form>
+    </div>
+    </body>

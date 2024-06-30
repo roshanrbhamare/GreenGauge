@@ -1,0 +1,264 @@
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+ /* navbar */
+
+.navbar{
+    /* background-color: #c6c4c447; */
+    /* background: linear-gradient(to right,grey,#c6c4c447, grey); */
+    background: linear-gradient(to bottom,rgb(104, 147, 147) , grey,#c6c4c447);
+    border-bottom-left-radius:30px ;
+    border-bottom-right-radius:30px ;
+    /* background: linear-gradient(to right, #56ab2f, #a8e063);rgb(1, 57, 1) */
+    box-shadow : 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+.logo{
+    width: 100px;
+    height: 100px;
+    font-size: 60px;
+    margin-left: 500px;
+}
+.logo-img{
+    width: 90px;
+    height: 90px;
+}
+
+/* footer */
+
+footer{
+    margin-top: auto;
+}
+
+.f-info-socials,.f-info-brand{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.f-info-socials i{
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+.f-info{
+    background-color: rgba(255, 255, 255, 0.0);
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+}
+/* solution */
+.solution-card {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.body1{
+    background-image: url(pexels-tomas-anunziata-129267-3876407.jpg);
+    background-size: cover;
+}
+
+
+.home1{
+    height: 80vh;
+    width: 80vh;
+    position: relative;
+    top: 7vh;
+    left: 25vw;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.8s ease-in-out;
+    opacity: 0.9;
+}
+
+.home1:hover{
+    height: 85vh;
+    width: 85vh;
+    opacity: 1;
+}
+
+.home2{
+    height: 80vh;
+    width: 80vh;
+    position: relative;
+    top: 10vh;
+    left: 25vw;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: all 0.8s ease-in-out;
+    opacity: 0.9;
+}
+.home2:hover{
+    height: 85vh;
+    width: 85vh;
+    opacity: 1;
+}
+.home0{
+    height: 15vh;
+    width: 60vh;
+    position: relative;
+    top: -2vh;
+    left: 30vw;
+    opacity: 0.8;
+    background-color: rgba(255, 255, 255, 0.565);
+    border-radius: 5px;
+}
+
+.home0:hover{
+    opacity: 1;
+}
+
+
+/* /////////////////////////////////////////////////////////////////////////////*/
+
+.q1b{
+    overflow: visible;
+    background-image: url(istockphoto-2147864552-1024x1024.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.q2b{
+    background-image: url(pexels-lilacdragonfly-311682-907905.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.q3b{
+    background-image: url(pexels-tomtookit-1914663-3538558.jpg);
+    background-size: 100vw 200vh;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.q4b{
+    background-image: url(pexels-fabien-burgue-1052232-2052521.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.q5b{
+    background-image: url(pexels-hikaique-68427.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.q6b{
+    background-image: url(pexels-pixabay-99567.jpg);
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.res{
+    overflow: hidden;
+    background-image:url(pexels-char-528970-1264000.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.res1{
+    position: absolute;
+    bottom: 2vh;
+    right: 10vh;
+    background: url(earth-6410_512.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 74vh;
+    width: 45vw;
+    z-index: -10;
+
+
+}
+.row1{
+    height: 50vh;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-content:baseline; */
+    align-items:start;
+}
+.para{
+    min-height: 50vh;
+    width: 20vw;
+
+}
+.para1{
+    min-height: 50vh;
+    width: 30vw;
+
+}
+/* .para2{
+    min-height: 50vh;
+    width: 35vw;
+
+} */
+
+.para2{
+    min-height:50vh ;
+    width: 22vw;
+}
+
+
+
+
+.sol{
+    overflow: hidden;
+    background-image:url(lake-7488466_1920.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    color: rgb(255, 255, 255);
+    /* font-size: 30px; */
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.answer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.para7{
+    min-height: 50vh;
+    width: 20vw;
+
+}
+.para8{
+    min-height: 50vh;
+    width: 20vw;
+
+}
+.para9{
+    min-height: 50vh;
+    width: 20vw;
+
+} 

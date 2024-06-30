@@ -1,0 +1,19 @@
+<% layout('/layouts/boilerplate') %>
+<body class="q1b">
+<div>
+    <form action="/questions/1" method="post">
+    <h1>FOOD</h1>
+    <h1>How often do you consume meat ?</h1>
+    <h4>(beef, pork, chicken, fish, eggs, dairy products)</h4>
+    </div>
+    <br>
+    <div class="answer">
+    <p>Never</p>
+    <input type="range" min="1" max="4" name="question1" id="question1" value="question1" class="form-range" style="margin: 0 10px 0 10px;">
+    <p>Always</p>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary" id="next">Next</button>
+    </form>
+</div>
+</body>
