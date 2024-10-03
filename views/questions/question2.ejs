@@ -1,0 +1,19 @@
+<% layout('/layouts/boilerplate') %>
+<body class="q2b">
+<div>
+    <form action="/questions/2" method="post">
+    <h1>FOOD</h1>
+    <h1>Is the food locally grown or imported ?</h1>
+    <h4>local : (less than 320 kilometers/200 miles away)</h4>
+    </div>
+    <br>
+    <div class="answer">
+    <p>locally grown</p>
+    <input type="range" min="1" max="2" name="question2" id="question2" value="question2" class="form-range" style="margin: 0 10px 0 10px;">
+    <p>imported</p>
+    </div>
+    <br>
+    <button type="submit" class="btn btn-primary" id="next">Next</button>
+    </form>
+</div>
+</body>

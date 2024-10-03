@@ -1,0 +1,28 @@
+<% layout('/layouts/boilerplate') %>
+<body class="res">
+    <div class="res1"></div>
+    <h1>Result</h1>
+    <% let result = 0; %>
+    <% let solution = 0; %>
+    <% let limit = 0; %>
+
+    <% if (answers && answers.length > 0) { %>
+        <% result = answers.reduce((acc, val) => acc + val, 0) / 6; %>
+
+        <% if (result < 1.4) { %>
+            <% solution = 1; 
+            limit = 1.4%>
+        <% } else if (result < 1.6) { %>
+            <% solution = 2; 
+            limit = 1.6%>
+        <% } else if (result <= 1.9) { %>
+            <% solution = 3; 
+            limit = 1.9%>
+        <% } %>
+    <% } %>
+
+    <b>If everyone lived like you, we would need</b>
+    <h1><%= result.toFixed(2) %> Earths</h1>
+    <a href="/"><button class="btn btn-dark">Home</button></a>
+    <a href="/solution/<%= solution %>"><button class="btn btn-dark">Solution for result less than <%= limit.toFixed(2) %> Earths </button></a>
+</body>
