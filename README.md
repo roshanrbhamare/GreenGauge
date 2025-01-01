@@ -11,8 +11,7 @@ GreenGauge is an interactive web application designed to help individuals measur
 - [Setup Instructions](#setup-instructions)  
 - [Usage](#usage)  
 - [Folder Structure](#folder-structure)  
-- [License](#license)  
-- [Author](#author)  
+- [License](#license)    
 
 ---
 
@@ -46,21 +45,29 @@ node index.js
 Open your browser and navigate to:
 http://localhost:8080
 
-Usage
+## Usage
 Start the application.
 Answer the questions presented in the quiz.
 View your ecological footprint on the results page.
 Explore personalized solutions for each question.
 
-Folder Structure
+## Folder Structure
+
 GreenGauge/
+
 ├── views/                     # EJS templates
+
 │   ├── questions/             # Templates for each question and results
+
 │   ├── layouts/               # Layout templates
+
 ├── public/                    # Static assets (CSS, images, etc.)
+
 ├── index.js                   # Main application logic
+
 ├── package.json               # Project metadata and dependencies
+
 └── README.md                  # Project documentation
 
-License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
